@@ -19,6 +19,9 @@
 /* ******************************** */
 body{
   font-family: Arial, Helvetica, sans-serif;
+  width: 385px;
+  height: 300px;
+  padding-left: 20px;
 }
 
 input{

@@ -1,4 +1,0 @@
-*** Pueden rastear todos los archivos menos la carpeta Assets ***
-
-User-agent: *
-Disallow: /assets
