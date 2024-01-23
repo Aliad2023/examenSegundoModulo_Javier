@@ -1,0 +1,59 @@
+/* TEAM */
+
+Developer: Javier Elías
+
+//ALGORITMO 1
+// Primero vamos a crear este seudocódigo que sólo va a tener dos botones: el "+" y el "=" y los números del 0-9, los vamos a introducir con el teclado del ordenador.
+
+Inicio
+    // Declarar variables
+     const de input 
+     const sumar
+     const resolver
+
+     let total = 0
+
+    // Obtener elementos HTML mediante su Id
+    input = obtenerElemento (input)
+    sumar = obtenerElemento (sumar)
+    resolver = obtenerElemento (resolver)
+
+    // Agregar controladores de eventos:
+
+         // Sumar número ingresado por el usuario y almacenar en la variable total
+        sumar.agregarEvento cuando click, function{
+        
+        }
+
+        // Mostrar resultado de la suma y restablecer la calculadora para una nueva suma
+        resolver.agregarEvento cuando click, function{
+
+        }
+Fin
+
+//ALGORITMO 2
+
+Inicio
+    Definir lista de números en un []
+    Dentro lista, el tercer número es la suma de los dos anteriores [5,10,15]
+
+    Input para definir zona donde escribir números 0-9 
+    Button para crear "+"
+    Button para crear "="
+
+    Si (click "+") =>
+        Comprobar que la cifra son solo numeros = (cifra*0) = 0 => true
+        guardar cifra en cifras[0]
+    Fin Si
+
+    Si (click "=") =>
+        si (cifras [0] o cifras no está vacio)
+        comprobar cifra son solo numeros
+        guardar cifras en cifras [1]
+        Sumar cifras: [0] + [1] y guardar cifras en cifras [3]
+        Mostrar resultado por pantalla
+        Sino
+            Mostrar "Error"
+        Fin si
+    Fin si
+Fin
